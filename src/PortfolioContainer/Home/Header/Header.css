@@ -1,0 +1,47 @@
+.header {
+  display: flex;
+
+  justify-content: space-between;
+  flex: 1;
+  padding: 12px;
+  padding-top: 8px;
+  position: relative;
+  align-items: center;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+}
+.fa-bars {
+  font-size: 24px;
+  color: white;
+}
+.mobile-menu {
+  display: none;
+}
+
+.web-menu {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  font-size: 36px;
+  color: var(--dark-orange);
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 720px) {
+  .mobile-menu {
+    display: flex;
+  }
+  .web-menu {
+    display: none;
+  }
+  .logo {
+    font-size: 24px;
+  }
+}
