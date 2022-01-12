@@ -74,7 +74,7 @@ export default function Profile() {
                 />
               </h1>
               <span className="profile-role-tagline">
-                Knock of building application with front and back end
+                Knock of building application wit front and back end
                 operation.
               </span>
 
