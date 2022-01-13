@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Mayur_Portfolio/static/css/main.3ab64790.css",
+    "main.js": "/Mayur_Portfolio/static/js/main.78c3d05b.js",
+    "static/js/787.86e70ff7.chunk.js": "/Mayur_Portfolio/static/js/787.86e70ff7.chunk.js",
+    "static/media/linkedin - Copy.png": "/Mayur_Portfolio/static/media/linkedin - Copy.39b978e0dfff057adaee.png",
+    "static/media/instagram - Copy.png": "/Mayur_Portfolio/static/media/instagram - Copy.30791cba72bcfe586d8d.png",
+    "static/media/github - Copy.png": "/Mayur_Portfolio/static/media/github - Copy.33f2e0bac302afac02a0.png",
+    "static/media/facebook - Copy.png": "/Mayur_Portfolio/static/media/facebook - Copy.92e3be75a2cb0fe8b929.png",
+    "static/media/twitter - Copy.png": "/Mayur_Portfolio/static/media/twitter - Copy.be77a3f6dca6bfdbda31.png",
+    "static/media/Me.jpg": "/Mayur_Portfolio/static/media/Me.aa413241c81654d5fbfe.jpg",
+    "static/media/Mobile_Shoppee.png": "/Mayur_Portfolio/static/media/Mobile_Shoppee.55ff1e43dd1fb8e4ee3c.png",
+    "static/media/Coding.png": "/Mayur_Portfolio/static/media/Coding.c9b8854a978632a1c81f.png",
+    "static/media/Poppins-Thin.ttf": "/Mayur_Portfolio/static/media/Poppins-Thin.a61eaf4c2e4d44d6db6a.ttf",
+    "static/media/Poppins-Light.ttf": "/Mayur_Portfolio/static/media/Poppins-Light.f41b63c0bb0963ace821.ttf",
+    "static/media/Poppins-Regular.ttf": "/Mayur_Portfolio/static/media/Poppins-Regular.8081832fc5cfbf634aa6.ttf",
+    "static/media/Poppins-Medium.ttf": "/Mayur_Portfolio/static/media/Poppins-Medium.9e1bb626874ed49aa343.ttf",
+    "static/media/Poppins-SemiBold.ttf": "/Mayur_Portfolio/static/media/Poppins-SemiBold.cce5625b56ec678e4202.ttf",
+    "static/media/Poppins-Bold.ttf": "/Mayur_Portfolio/static/media/Poppins-Bold.404e299be26d78e66794.ttf",
+    "static/media/Poppins-ExtraBold.ttf": "/Mayur_Portfolio/static/media/Poppins-ExtraBold.4ed78cd5d64af4efc3c7.ttf",
+    "static/media/Box-Office.JPG": "/Mayur_Portfolio/static/media/Box-Office.2a3d91582bfea76a473b.JPG",
+    "static/media/Capture.JPG": "/Mayur_Portfolio/static/media/Capture.87b0bce03aebb9148fff.JPG",
+    "static/media/bg.jpg": "/Mayur_Portfolio/static/media/bg.d580cd375921d13ae60d.jpg",
+    "index.html": "/Mayur_Portfolio/index.html",
+    "main.3ab64790.css.map": "/Mayur_Portfolio/static/css/main.3ab64790.css.map",
+    "main.78c3d05b.js.map": "/Mayur_Portfolio/static/js/main.78c3d05b.js.map",
+    "787.86e70ff7.chunk.js.map": "/Mayur_Portfolio/static/js/787.86e70ff7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ab64790.css",
+    "static/js/main.78c3d05b.js"
+  ]
+}
