@@ -34,7 +34,7 @@ We can also search about actors and can see their country and alive or dead.
         </div>
         <div className='project-card'>
             <div className="project-info">
-                <label  className="project-title">TIC-TAC-TOE</label>
+                <label  className="project-title">TIC-TAC-TEO</label>
                 <div className="project-links">
                     <a href=" https://tictacteogame.surge.sh/" className="project-link">
                     <div className="link-button">
