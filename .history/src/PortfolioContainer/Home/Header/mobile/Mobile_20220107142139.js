@@ -7,13 +7,7 @@ export default function Mobile({isOpen,setIsOpen}) {
             <div className='close-icon' onClick={()=>setIsOpen(!isOpen)}>
             <i className="fa fa-times-circle"></i>
             </div>
-            <div className="mobile-options" onClick={()=>setIsOpen(!isOpen)}>
-            <div className="mobile-option" >
-                <a href='#Home'>
-                        <i className="fa fa-home"></i>
-                        <p>Home</p>
-                    </a>
-                </div>
+            <div className="mobile-options">
                 <div className="mobile-option">
                 <a href='#Project'>
                         <i className="fa fa-folder-open"></i>
