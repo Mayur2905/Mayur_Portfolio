@@ -15,6 +15,13 @@ import "./Contact.css";
           console.log(error.text);
       });
   };
+  const IsEmpty = ()=> {
+
+    if (form.send.value === "") {
+      alert("empty");
+    }
+    return;
+  };
 
   return (
     <>
@@ -55,23 +62,23 @@ import "./Contact.css";
                         
                     </div>
                 </div>
-                <form ref={form} onSubmit={sendEmail} className='contact-info' name='form0'>
+                <form ref={form} onSubmit={sendEmail} className='contact-info'>
                     <div className="contact-form">
                         <h3 className="title">Contact Me</h3>
                         <div className="row">
-                            <input type="text" name='first_name' className="contact-input" placeholder='First Name' required/>
-                            <input type="text" name='last_name' className="contact-input" placeholder='Last Name' required/>
+                            <input type="text" name='first_name' className="contact-input" placeholder='First Name' />
+                            <input type="text" name='last_name' className="contact-input" placeholder='Last Name' />
                         </div>
                         <div className="row">
-                            <input type="text" name='phone' className="contact-input" placeholder='Phone' required />
-                            <input type="email" name='email' className="contact-input" placeholder='Email' required />
+                            <input type="text" name='phone' className="contact-input" placeholder='Phone' />
+                            <input type="email" name='email' className="contact-input" placeholder='Email' />
                         </div>
                         <div className="row">
                             <textarea name="message" className='contact-input textarea' 
-                            placeholder='Message' required>
+                            placeholder='Message'>
                             </textarea>
                         </div>
-                        <input className='btn' type='submit'onClick={()=>{alert("Form submitted successfully"); document.form0.reset()}} value="Send"/>
+                        <input className='btn' type='submit'name='send' onClick={IsEmpty} value="Send"/>
                     </div>
                 </form>
             </div>

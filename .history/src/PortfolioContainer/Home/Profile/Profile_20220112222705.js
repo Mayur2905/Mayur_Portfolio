@@ -62,7 +62,7 @@ export default function Profile() {
                     [
                     "Full Stack Developer 👨",
                     1000,
-                    "competitive Programmer 💻",
+                    "Compitative Programmer 💻",
                     1000,
                     "React Js Developer 🔯 ",
                     1000,

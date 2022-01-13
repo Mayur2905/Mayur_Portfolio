@@ -12,7 +12,7 @@ function About() {
             <div className="about-info">
                 Hello There 👋, 
                 <br/>I am <span className='info-name'>Mayur</span>,
-                <br/> Full stack web and mobile developer with background knowledge of React, along with a knack of building applications with ulmost efficiency. A Certified Ethical Hacker with aware about website vulnerabilities. 
+                <br/> Full stack web and mobile developer with background knowledge of React, along with a knack of building applications with utmost efficiency. A Certified Ethical Hacker with aware about website vulnerabilities. 
             </div>
             <div className="about-photo">
                 <img 

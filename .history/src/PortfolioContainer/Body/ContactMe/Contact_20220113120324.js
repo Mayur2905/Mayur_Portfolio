@@ -55,7 +55,7 @@ import "./Contact.css";
                         
                     </div>
                 </div>
-                <form ref={form} onSubmit={sendEmail} className='contact-info' name='form0'>
+                <form ref={form} onSubmit={sendEmail} className='contact-info'>
                     <div className="contact-form">
                         <h3 className="title">Contact Me</h3>
                         <div className="row">
@@ -71,7 +71,7 @@ import "./Contact.css";
                             placeholder='Message' required>
                             </textarea>
                         </div>
-                        <input className='btn' type='submit'onClick={()=>{alert("Form submitted successfully"); document.form0.reset()}} value="Send"/>
+                        <input className='btn' type='submit'onClick={()=>{alert("Form submitted successfully")}} value="Send"/>
                     </div>
                 </form>
             </div>

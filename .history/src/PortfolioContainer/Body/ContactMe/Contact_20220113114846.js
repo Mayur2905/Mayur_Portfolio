@@ -15,6 +15,16 @@ import "./Contact.css";
           console.log(error.text);
       });
   };
+  const submitHandler = () => {
+    // Here do your stuff on submit
+    if(error){
+      this.setState({formError: true, formSuccess: false});
+    }
+    else{
+      this.setState({formError: false, formSuccess: true});
+    }
+    
+    }
 
   return (
     <>
@@ -55,23 +65,33 @@ import "./Contact.css";
                         
                     </div>
                 </div>
-                <form ref={form} onSubmit={sendEmail} className='contact-info' name='form0'>
+                <form ref={form} onSubmit={sendEmail} className='contact-info' success={this.state.formSuccess} error={this.state.formError} >
+                    <Message
+                        success
+                        header="Form completed"
+                        content="Thank you for your contribution."
+                    />
+                    <Message
+                        error
+                        header="Missing fields!" 
+                        list={['All fields must be filled.']}
+                    />
                     <div className="contact-form">
                         <h3 className="title">Contact Me</h3>
                         <div className="row">
-                            <input type="text" name='first_name' className="contact-input" placeholder='First Name' required/>
-                            <input type="text" name='last_name' className="contact-input" placeholder='Last Name' required/>
+                            <input type="text" name='first_name' className="contact-input" placeholder='First Name' required />
+                            <input type="text" name='last_name' className="contact-input" placeholder='Last Name'  required/>
                         </div>
                         <div className="row">
-                            <input type="text" name='phone' className="contact-input" placeholder='Phone' required />
-                            <input type="email" name='email' className="contact-input" placeholder='Email' required />
+                            <input type="text" name='phone' className="contact-input" placeholder='Phone' required/>
+                            <input type="email" name='email' className="contact-input" placeholder='Email' required/>
                         </div>
                         <div className="row">
                             <textarea name="message" className='contact-input textarea' 
-                            placeholder='Message' required>
+                            placeholder='Message' error={this.state.descriptionError} required>
                             </textarea>
                         </div>
-                        <input className='btn' type='submit'onClick={()=>{alert("Form submitted successfully"); document.form0.reset()}} value="Send"/>
+                        <input className='btn' type='submit'name='send' onClick={this.submitHandler} value="Send"/>
                     </div>
                 </form>
             </div>

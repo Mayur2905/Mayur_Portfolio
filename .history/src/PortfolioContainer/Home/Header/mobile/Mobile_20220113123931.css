@@ -40,7 +40,7 @@
   flex-direction: rowS;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 320px) {
   .mobile {
     height: 70vh;
     width: 40vh;
@@ -57,7 +57,7 @@
     justify-content: flex-end;
     font-size: 20px;
   }
-
+  
   .mobile-options {
     display: flex;
     flex-direction: column;
@@ -66,13 +66,13 @@
     justify-content: 24px;
     align-items: center;
   }
-
+  
   .mobile-option {
     font-size: 20px;
     padding: 24px 0px;
     display: flex;
   }
-
+  
   .mobile-option a {
     text-decoration: none;
     color: black;
@@ -80,4 +80,5 @@
     font: arial;
     flex-direction: row;
   }
+  
 }

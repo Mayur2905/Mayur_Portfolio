@@ -40,7 +40,7 @@
   flex-direction: rowS;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 320px) {
   .mobile {
     height: 70vh;
     width: 40vh;
@@ -50,34 +50,5 @@
     padding: 12px 9px;
     display: flex;
     flex-direction: column;
-  }
-  .close-icon {
-    color: black;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 20px;
-  }
-
-  .mobile-options {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    padding-top: 24px;
-    justify-content: 24px;
-    align-items: center;
-  }
-
-  .mobile-option {
-    font-size: 20px;
-    padding: 24px 0px;
-    display: flex;
-  }
-
-  .mobile-option a {
-    text-decoration: none;
-    color: black;
-    display: flex;
-    font: arial;
-    flex-direction: row;
   }
 }
